@@ -1,0 +1,36 @@
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers, 
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers:hover, 
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers.current {
+	display: inline-block;
+	background-color: var(--wp--preset--color--base);
+	width: 42px;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin-right: 6px;
+	font-size: var(--wp--preset--font-size--x-small);
+	text-decoration: none;
+	letter-spacing: 0;
+}
+
+.is-style-pagination-button .wp-block-query-pagination-next,
+.is-style-pagination-button .wp-block-query-pagination-previous {
+	display: inline-block;
+	background-color: var(--wp--preset--color--base);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	height: 42px;
+	line-height: 42px;
+	font-size: var(--wp--preset--font-size--x-small);
+	padding: 0 15px;
+}
+
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers:hover,
+.is-style-pagination-button .wp-block-query-pagination-numbers .page-numbers.current {
+	background-color: #2a2a2c;
+	color: #fff;
+}
+
+.is-style-pagination-button {
+	margin-bottom: 40px;
+}

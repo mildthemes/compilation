@@ -7,8 +7,8 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"40px","bottom":"40px","left":"30px","right":"30px"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"secondary","textColor":"base","className":"has-background-color","layout":{"type":"constrained","contentSize":"960px"},"fontSize":"small"} -->
-<div class="wp-block-group alignfull has-background-color has-base-color has-secondary-background-color has-text-color has-background has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px"><!-- wp:columns {"align":"wide","style":{"elements":{"link":{"color":[]}}}} -->
-<div class="wp-block-columns alignwide has-link-color"><!-- wp:column {"width":"55%"} -->
+<div class="wp-block-group alignfull has-background-color has-base-color has-secondary-background-color has-text-color has-background has-link-color has-small-font-size" style="margin-top:0;margin-bottom:0;padding-top:40px;padding-right:30px;padding-bottom:40px;padding-left:30px"><!-- wp:columns {"style":{"elements":{"link":{"color":[]}}}} -->
+<div class="wp-block-columns has-link-color"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:heading {"level":4,"style":{"typography":{"lineHeight":"1"}},"className":"wp-block-heading","fontSize":"medium"} -->
 <h4 class="wp-block-heading has-medium-font-size" id="our-company" style="line-height:1"><?php echo esc_html__( 'About ¬', 'compilation' ); ?></h4>
 <!-- /wp:heading -->
@@ -18,7 +18,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}},"typography":{"fontSize":"15px"}}} -->
-<p class="has-text-align-left has-link-color" style="font-size:15px">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> • Powered by <a href="https://mildthemes.co/compilation-wordpress-theme/" target="_blank">Compilation WordPress theme</a>.</p>
+<p class="has-text-align-left has-link-color" style="font-size:15px">&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?> • Powered by WordPress & <a href="https://mildthemes.co/compilation-wordpress-theme/" target="_blank">Compilation</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

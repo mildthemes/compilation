@@ -14,6 +14,19 @@ A minimalist block theme for content curators. With its clean and minimal design
 
 == Changelog ==
 
+= 1.0.3 =
+* Fixed content alignment for archive template
+* Fixed content alignment for page template
+
+= 1.0.2 =
+* Removed default gradient
+* Removed default color palette
+* Updated footer credits
+* Changed base color to #FFF
+* Fixed screenshot alignment
+* contentSize & wideSize updated
+* Added underline on hover for navigation links
+
 = 1.0.1 =
 * Added underline for links
 * Updated theme URI and Author URI

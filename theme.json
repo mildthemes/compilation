@@ -20,9 +20,11 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultGradients": false,
+			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#f1f1f1",
+					"color": "#ffffff",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -71,8 +73,8 @@
 			}
 		},
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "960px"
+			"contentSize": "960px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
@@ -334,6 +336,11 @@
 			"core/navigation": {
 				"elements": {
 					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
 						"typography": {
 							"textDecoration": "none"
 						}

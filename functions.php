@@ -35,10 +35,50 @@ add_action( 'wp_enqueue_scripts', 'compilation_enqueue_stylesheet' );
 function compilation_register_block_pattern_categories() {
 
 	register_block_pattern_category(
-		'compilation-patterns',
+		'compilation-pages',
 		array(
-			'label'       => __( 'Compilation', 'compilation' ),
-			'description' => __( 'Patterns included with the compilation theme', 'compilation' ),
+			'label'       => __( 'Pages', 'compilation' ),
+			'description' => __( 'Full page patterns included with the Compilation theme', 'compilation' ),
+		)
+	);
+	register_block_pattern_category(
+		'compilation-headers',
+		array(
+			'label'       => __( 'Headers', 'compilation' ),
+			'description' => __( 'Header patterns included with the Compilation theme', 'compilation' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compilation-heroes',
+		array(
+			'label'       => __( 'Heroes', 'compilation' ),
+			'description' => __( 'Hero patterns included with the Compilation theme', 'compilation' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compilation-footers',
+		array(
+			'label'       => __( 'Footers', 'compilation' ),
+			'description' => __( 'Footer patterns included with the Compilation theme', 'compilation' ),
+		)
+	);
+
+	register_block_pattern_category(
+		'compilation-posts',
+		array(
+			'label'       => __( 'Posts', 'compilation' ),
+			'description' => __( 'Post patterns included with the Compilation theme', 'compilation' ),
+		)
+	);
+
+	
+	register_block_pattern_category(
+		'compilation-cat',
+		array(
+			'label'       => __( 'Categories', 'compilation' ),
+			'description' => __( 'Taxonomy patterns included with the Compilation theme', 'compilation' ),
 		)
 	);
 
@@ -57,7 +97,8 @@ function compilation_register_block_styles() {
 			'pagination-button' => __( 'Compilation', 'compilation' ),
 		),
 		'core/categories' => array(
-			'category-block' => __( 'Compilation', 'compilation' ),
+			'category-block' => __( '4 Column', 'compilation' ),			
+			'category-block-3c' => __( '3 Column', 'compilation' ),
 		),
 	);
 

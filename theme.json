@@ -31,24 +31,24 @@
 					"slug": "base"
 				},
 				{
-					"color": "#1e293b",
-					"name": "Contrast",
-					"slug": "contrast"
-				},
-				{
-					"color": "#334156",
+					"color": "#131311",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#2a2a2c",
+					"color": "#2A2A2C",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#D4D9DF",
 					"name": "Neutral",
 					"slug": "neutral"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "White",
+					"slug": "white"
 				}
 			]
 		},
@@ -569,7 +569,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--base)",
-			"text": "var(--wp--preset--color--contrast)"
+			"text": "var(--wp--preset--color--secondary)"
 		},
 		"elements": {
 			"button": {

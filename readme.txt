@@ -14,6 +14,16 @@ A minimalist block theme for content curators. With its clean and minimal design
 
 == Changelog ==
 
+= 1.0.5 =
+* Added new style variation
+* Restyled submenu
+* Restyled mobile menu
+* Categorized patterns
+* Added recent posts inside single
+* Moved basic styling to assets/css/style.css
+* Restyled comments
+* Fixed pagination css
+
 = 1.0.4 =
 * Updated theme.json
 * Removed unnecessary underline from links

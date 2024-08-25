@@ -1,6 +1,6 @@
 <?php 
 /**
- * Title: Hero
+ * Title: Hero default
  * Slug: compilation/hero-default
  * Categories: compilation-heroes
  * Keywords: hero, default

@@ -2,7 +2,6 @@
 /**
  * Set up Compilation theme
  */
-
 if ( ! function_exists( 'compilation_setup' ) ) {
 	function compilation_setup() {
 
@@ -24,7 +23,7 @@ add_action( 'after_setup_theme', 'compilation_setup' );
  */
 function compilation_enqueue_stylesheet() {
 
-	wp_enqueue_style( 'compilation', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'compilation', get_template_directory_uri() . 'assets/css/style.css', array(), wp_get_theme()->get( 'Version' ) );
 
 }
 add_action( 'wp_enqueue_scripts', 'compilation_enqueue_stylesheet' );
@@ -75,7 +74,7 @@ function compilation_register_block_pattern_categories() {
 
 	
 	register_block_pattern_category(
-		'compilation-cat',
+		'compilation-categories',
 		array(
 			'label'       => __( 'Categories', 'compilation' ),
 			'description' => __( 'Taxonomy patterns included with the Compilation theme', 'compilation' ),

@@ -1,6 +1,6 @@
 <?php 
 /**
- * Title: Homepage
+ * Title: Homepage 3-column
  * Slug: compilation/home-alt
  * Categories: compilation-pages
  * Keywords: home, frontpage, default

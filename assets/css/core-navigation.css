@@ -55,11 +55,6 @@ header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-na
 		margin-top: 0;
 	}
 
-	.is-menu-open.has-modal-open {
-		padding: var(--wp--preset--spacing--medium);
-		background: var(--wp--preset--color--secondary) !important;
-
-	}
 
 	.is-menu-open.has-modal-open .wp-block-navigation__responsive-container-content {
 		padding-top: 46px !important;
@@ -111,22 +106,7 @@ header .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-na
 		padding: var(--wp--preset--spacing--x-small) 0 0 !important;
 	}
 
-	.wp-block-navigation__responsive-container-close,
-	.wp-block-navigation__responsive-container-open {
-		padding: 4px;
-		border-radius: 3px;
-		background: var(--wp--preset--color--secondary);
-		color: var(--wp--preset--color--base);
-	}
-
-	.wp-block-navigation__responsive-container-close {
-		background: var(--wp--preset--color--secondary);
-		color: var(--wp--preset--color--base);
-	}
-
 	.is-menu-open .wp-block-navigation__submenu-container {
-		background: var(--wp--preset--color--secondary);
-		box-shadow: none !important;
 		padding-top: var(--wp--preset--spacing--small);
 	}
 

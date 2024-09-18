@@ -14,6 +14,9 @@ A minimalist block theme for content curators. With its clean and minimal design
 
 == Changelog ==
 
+= 1.0.8 =
+* Added theme-notice.php to show Pro version features
+
 = 1.0.7 =
 * Fixed responsive menu color scheme
 * Fixed style.css path
